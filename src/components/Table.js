@@ -1,19 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
-import Box from '@material-ui/core/Box';
-import Collapse from '@material-ui/core/Collapse';
-import IconButton from '@material-ui/core/IconButton';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+import { Box, Collapse, IconButton, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, Paper } from '@material-ui/core';
+import { KeyboardArrowDown, KeyboardArrowUp } from '@material-ui/icons';
 import moment from 'moment';
 
 const useRowStyles = makeStyles({
@@ -27,14 +16,14 @@ const useRowStyles = makeStyles({
     },
     width: '100%',
     overflowX: 'auto',
-    
+
   },
   table: {
     width: '100%',
   },
   tablecell: {
     fontSize: '40pt',
-}
+  }
 
 });
 
@@ -48,7 +37,7 @@ function Row(props) {
       <TableRow className={classes.root}>
         <TableCell>
           <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
-            {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
+            {open ? <KeyboardArrowUp /> : <KeyboardArrowDown />}
           </IconButton>
         </TableCell>
         <TableCell component="th" scope="row">
@@ -59,14 +48,15 @@ function Row(props) {
         </TableCell>
         <TableCell align="right">{row.from}</TableCell>
         <TableCell align="right">{row.to}</TableCell>
-        <TableCell  align="center">
-        <span
-                  style={ {backgroundColor : row.fee_type === 'Free' ? '#9fcf9f':'#f68f8f',padding: "2.5% 10%"
-                  } }
-                >
-                  {row.fee_type}
-                </span>
-                </TableCell>
+        <TableCell align="center">
+          <span
+            style={{
+              backgroundColor: row.fee_type === 'Free' ? '#9fcf9f' : '#f68f8f', padding: "2.5% 10%"
+            }}
+          >
+            {row.fee_type}
+          </span>
+        </TableCell>
       </TableRow>
       <TableRow>
         <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
@@ -132,86 +122,91 @@ Row.propTypes = {
 
 export default function CollapsibleTable(props) {
   const classes = useRowStyles();
-  const [centerList,setCenterList]= React.useState([]);
-  const [errText, setErrText]=React.useState('');
-  const {district} = props;
-  
-  const [isAvailable, setIsAvailable]=React.useState('');
-  useEffect( () =>{
+  const [centerList, setCenterList] = React.useState([]);
+  const [errText, setErrText] = React.useState('');
+  const { district } = props;
+
+  const [isAvailable, setIsAvailable] = React.useState('');
+  useEffect(() => {
     getTable();
-    async function getTable(){
-      try{
-        let filteredData= [];
+    async function getTable() {
+      let filteredData = [];
+      try {
         setErrText("Please wait...");
         const date = moment().utc().utcOffset("+05:30").format('DD-MM-YYYY');
         const urlCenter = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=${district}&date=${date}`;
-        const response = await fetch(urlCenter,{
+        const response = await fetch(urlCenter, {
           headers: {
-          "Content-Type": "application/json",
-      }});
-       const resJSON = await response.json();
-       const centers = resJSON.centers;
+            "Content-Type": "application/json",
+          },
+          method: "GET"
+        });
+        const resJSON = await response.json();
+        const centers = resJSON.centers;
         centers.map(
-          function(item){
+          function (item) {
             var isCapacity = true;
-              item.sessions.map((sess)=>{
-                if(sess.available_capacity!=0){
-                  isCapacity=false;
-                }
-              })
-             if(!isCapacity){
-                filteredData.push(item)
-                isCapacity=true;
-             }
+            item.sessions.map((sess) => {
+              if (sess.available_capacity != 0) {
+                isCapacity = false;
+              }
+            })
+            if (!isCapacity) {
+              filteredData.push(item)
+              isCapacity = true;
+            }
           }
-      ) 
-      setErrText("Last updated : "+date+ " " + moment().utc().utcOffset("+05:30").format("h:mm:ss a"));
-      if(filteredData.length === 0){
-        setIsAvailable("No data available.");
-        setCenterList([]);
-      }else{
-      setCenterList(filteredData);
-      setIsAvailable("");
+        )
+        setErrText("Last updated : " + date + " " + moment().utc().utcOffset("+05:30").format("h:mm:ss a"));
+        if (filteredData.length === 0) {
+          setIsAvailable("No data available.");
+          setCenterList([]);
+        } else {
+          setCenterList(filteredData);
+          setIsAvailable("");
+        }
+
+      } catch (e) {
+        const mockCenters = require("../mockData/centers.json");
+        setCenterList(mockCenters);
+        setIsAvailable("");
+        setErrText("ERROR : Please try again later. The data you are currently viewing is simulated/mock data.");
+      }
     }
-    
-      } catch(e) {
-        setErrText("ERROR : Try again after sometime");
-    }
-  }
-  const intervalID = setInterval(getTable,10000);
-  return () => clearInterval(intervalID);
-},[district]);
+    const intervalID = setInterval(getTable, 10000);
+    return () => clearInterval(intervalID);
+  }, [district]);
 
 
   return (
     <>
-  <Typography className={classes.root} color="textSecondary">
-      <h5>{errText} <br/> Auto refresh every 10 seconds </h5>
-    </Typography>
-    
-    <TableContainer>
-<Paper style={{ overflowX: "auto" }}>
-      <Table >
-        <TableHead>
-          <TableRow>
-            <TableCell />
-            <TableCell>Block Name</TableCell>
-            <TableCell>Center Name</TableCell>
-            <TableCell align="right">From</TableCell>
-            <TableCell align="right">To</TableCell>
-            <TableCell align="center">Fee Type</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {centerList.map((row) => (
+      <Typography className={classes.root} color="textSecondary">
+        <h5>{errText} <br /> Auto refresh every 10 seconds </h5>
+      </Typography>
+
+      <TableContainer>
+        <Paper style={{ overflowX: "auto" }}>
+          <Table >
+            <TableHead>
+              <TableRow>
+                <TableCell />
+                <TableCell>Block Name</TableCell>
+                <TableCell>Center Name</TableCell>
+                <TableCell align="right">From</TableCell>
+                <TableCell align="right">To</TableCell>
+                <TableCell align="center">Fee Type</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {centerList.map((row) => (
                 <Row key={row.name} row={row} />
-           ))}
-        </TableBody>
-        <caption>{isAvailable}</caption>
-      </Table>
-      </Paper>
-    </TableContainer>
-            </>
+              ))}
+            </TableBody>
+            <caption>{isAvailable}</caption>
+          </Table>
+        </Paper>
+      </TableContainer>
+    </>
   );
 }
 

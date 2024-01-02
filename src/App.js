@@ -15,13 +15,14 @@ export default function App() {
         const response = await fetch(urlState, {
           headers: {
             "Content-Type": "application/json",
-          }
+          },
+          method: "GET"
         });
         const resJSON = await response.json();
         const states = resJSON.states;
         setStateList(states);
       } catch {
-
+        setStateList([{state_id: 21, state_name: "Maharashtra"}]);
       }
     }
     fetchStateList();

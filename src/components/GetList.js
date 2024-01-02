@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { makeStyles } from "@material-ui/core/styles";
-import InputLabel from "@material-ui/core/InputLabel";
-import MenuItem from "@material-ui/core/MenuItem";
-import FormControl from "@material-ui/core/FormControl";
-import Select from "@material-ui/core/Select";
+import { InputLabel, MenuItem, FormControl, Select } from "@material-ui/core";
 import PropTypes from "prop-types";
 import CollapsibleTable from './Table';
 
@@ -23,7 +20,7 @@ GetState.PropTypes = {
   stateList: PropTypes.array,
 };
 GetState.defaultProps = {
-  stateList:[],
+  stateList: [],
 };
 
 GetDistrict.PropTypes = {
@@ -31,18 +28,18 @@ GetDistrict.PropTypes = {
   id: PropTypes.number,
 };
 GetDistrict.defaultProps = {
-  distList:[],
-  id:'',
+  distList: [],
+  id: '',
 };
 
 export default function GetState(props) {
   const classes = useStyles();
   const [state, setState] = React.useState("");
-  const {stateList} = props;
+  const { stateList } = props;
   const handleChangeState = (event) => {
     setState(event.target.value);
   };
-  
+
   return (
     <>
       <FormControl variant="outlined" className={classes.formControl}>
@@ -54,13 +51,13 @@ export default function GetState(props) {
           onChange={handleChangeState}
           label="state"
         >{
-            stateList.map(item=>(
-                <MenuItem value={item.state_id}>{item.state_name}</MenuItem>
-            
+            stateList.map(item => (
+              <MenuItem value={item.state_id}>{item.state_name}</MenuItem>
+
             ))}
         </Select>
       </FormControl>
-       { state && <GetDistrict state={state}/>}
+      {state && <GetDistrict state={state} />}
     </>
   );
 }
@@ -69,32 +66,35 @@ export default function GetState(props) {
 function GetDistrict(props) {
   const classes = useStyles();
   const [district, setDistrict] = React.useState();
-  const [distList,setDistList]= React.useState([]);
-  const {state} = props;
-  useEffect(()=>{
-    async function fetchDistList(){ 
-      try{
+  const [distList, setDistList] = React.useState([]);
+  const { state } = props;
+  useEffect(() => {
+    async function fetchDistList() {
+      try {
         const urlDist = `https://cdn-api.co-vin.in/api/v2/admin/location/districts/${state}`;
-        const response = await fetch(urlDist,{
+        const response = await fetch(urlDist, {
           headers: {
-          "Content-Type": "application/json",
-         }});
-       const resJSON = await response.json();
-       const districts = resJSON.districts;
-       setDistList(districts)
-        }catch(e){
-            console.log(e);
+            "Content-Type": "application/json",
+          },
+          method: "GET"
+        });
+        const resJSON = await response.json();
+        const districts = resJSON.districts;
+        setDistList(districts)
+      } catch (e) {
+        setDistList([{ district_id: 392, district_name: "Thane" }])
+        console.log(e);
       }
 
 
-  }
-  fetchDistList();
-},[state]);
+    }
+    fetchDistList();
+  }, [state]);
 
-const handleChangeDistrict = (event) => {
-  setDistrict(event.target.value);
-};
-  
+  const handleChangeDistrict = (event) => {
+    setDistrict(event.target.value);
+  };
+
   return (
     <>
       <FormControl variant="outlined" className={classes.formControl}>
@@ -107,12 +107,12 @@ const handleChangeDistrict = (event) => {
           label="District"
         >
           {
-            distList.map(item=>(
-                <MenuItem value={item.district_id}>{item.district_name}</MenuItem>
+            distList.map(item => (
+              <MenuItem value={item.district_id}>{item.district_name}</MenuItem>
             ))}
         </Select>
       </FormControl>
-      { district && <CollapsibleTable district={district}/>}
+      {district && <CollapsibleTable district={district} />}
 
     </>
   );

@@ -1,0 +1,2245 @@
+[
+    {
+        "center_id": 726132,
+        "name": "KDMCP Om Hospital Dombivli E",
+        "address": "Commerce Center Tandon Road Dombivli East",
+        "state_name": "Maharashtra",
+        "district_name": "Thane",
+        "block_name": "Kalyan Dombivali Municipal Corporation",
+        "pincode": 421201,
+        "lat": 19,
+        "long": 73,
+        "from": "09:00:00",
+        "to": "20:00:00",
+        "fee_type": "Paid",
+        "sessions": [
+            {
+                "session_id": "968357b4-89e7-4475-be2b-cf9a617d00e7",
+                "date": "02-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "b0f3614b-9648-424e-8a11-d9bd97895917",
+                "date": "02-01-2024",
+                "available_capacity": 20,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 10,
+                "available_capacity_dose2": 10
+            },
+            {
+                "session_id": "f676bb6e-7368-42f9-9546-11105f7f7c04",
+                "date": "03-01-2024",
+                "available_capacity": 20,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 10,
+                "available_capacity_dose2": 10
+            },
+            {
+                "session_id": "2191ecbe-e9f4-4bc6-a4ad-acadd42e2c2c",
+                "date": "03-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "12203291-080e-47d9-8e95-82b5f1c8f2e9",
+                "date": "04-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 10
+            },
+            {
+                "session_id": "d65449ff-be96-4f1c-8400-4a48a96b7d8d",
+                "date": "04-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "c7eb2b0b-378c-40d5-a276-39449ea82bf9",
+                "date": "05-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 10
+            },
+            {
+                "session_id": "fde0129e-3636-40d1-9b73-4078dc9a6a1a",
+                "date": "05-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "f0826fdf-3c07-43e6-affb-7d398a43ef3f",
+                "date": "06-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 10
+            },
+            {
+                "session_id": "b33821ac-b7b9-4e2c-a5a6-786f6e41d065",
+                "date": "06-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "c4047c75-109d-4245-b7ab-e5ad3f40c6ee",
+                "date": "07-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "2a34ef0f-1e78-4b0a-8056-1caa64d2fa5c",
+                "date": "07-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-06:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "06:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 10
+            }
+        ],
+        "vaccine_fees": [
+            {
+                "vaccine": "COVOVAX",
+                "fee": "386.25"
+            }
+        ]
+    },
+    {
+        "center_id": 851051,
+        "name": "KDMCP SAI SHRADDHA HOSPITAL",
+        "address": "1st Floor Classic Apt Nr Sntoshimata Mandir Kopar Road Dombivli West",
+        "state_name": "Maharashtra",
+        "district_name": "Thane",
+        "block_name": "Kalyan Dombivali Municipal Corporation",
+        "pincode": 421202,
+        "lat": 19,
+        "long": 73,
+        "from": "09:30:00",
+        "to": "19:30:00",
+        "fee_type": "Paid",
+        "sessions": [
+            {
+                "session_id": "e106f81b-8006-4a68-9aa8-534b2c0759ba",
+                "date": "02-01-2024",
+                "available_capacity": 20,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-01:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:30PM-03:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:30PM-07:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 10,
+                "available_capacity_dose2": 10
+            },
+            {
+                "session_id": "a49ea37c-9b98-405d-976a-9d2d64185e33",
+                "date": "02-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-01:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:30PM-03:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:30PM-07:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "afaac9ee-6149-441a-bbc2-008a48c4678f",
+                "date": "03-01-2024",
+                "available_capacity": 20,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-01:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:30PM-03:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:30PM-07:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 10,
+                "available_capacity_dose2": 10
+            },
+            {
+                "session_id": "97c700ea-a010-4de6-a412-7a83e3b25764",
+                "date": "03-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-01:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:30PM-03:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:30PM-07:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "29928ec0-8751-49d8-9305-9b7909d461d7",
+                "date": "04-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-01:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:30PM-03:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:30PM-07:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 10
+            },
+            {
+                "session_id": "0e173486-77b0-4abf-a935-62cdd8da2317",
+                "date": "04-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-01:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:30PM-03:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:30PM-07:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "285a66be-fced-43f1-83a0-28e8e6ec076f",
+                "date": "05-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-01:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:30PM-03:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:30PM-07:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "c337425e-dc3e-4ca3-b8fc-af55b8aecb37",
+                "date": "05-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-01:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:30PM-03:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:30PM-07:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 10
+            },
+            {
+                "session_id": "033be015-9d6f-43f4-bab7-65e72553fe56",
+                "date": "06-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:30AM-10:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "10:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-12:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:30PM-01:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "06077f7b-0128-428b-97fb-5064af4c3e06",
+                "date": "06-01-2024",
+                "available_capacity": 10,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "09:30AM-10:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "10:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-12:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:30PM-01:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 10
+            }
+        ],
+        "vaccine_fees": [
+            {
+                "vaccine": "COVOVAX",
+                "fee": "250"
+            }
+        ]
+    },
+    {
+        "center_id": 702315,
+        "name": "TMC P INVC-Family Vaccination",
+        "address": "1A 1St Floor Vibgyor Near Hiranandani Estate Ghodbunder Rd Patlipada Thane Maharashtra",
+        "state_name": "Maharashtra",
+        "district_name": "Thane",
+        "block_name": "Thane Municipal Corporation",
+        "pincode": 400607,
+        "lat": 19,
+        "long": 72,
+        "from": "11:00:00",
+        "to": "19:00:00",
+        "fee_type": "Paid",
+        "sessions": [
+            {
+                "session_id": "5327160f-df9b-41cd-8441-27a493c3675b",
+                "date": "02-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "1a152bf0-b0e0-4227-8272-a67986a4e5ff",
+                "date": "02-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "b39ab069-e0ac-413b-b742-aadd46ca8a5d",
+                "date": "02-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "GEMCOVAC®-OM",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "37db8681-2281-455c-8bf5-588ac4e582fb",
+                "date": "02-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "73f9fb89-4306-4733-9399-a61c35f29fc1",
+                "date": "02-01-2024",
+                "available_capacity": 199,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 99,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "c08051ae-6c89-47e4-89a3-c3fad5d5788c",
+                "date": "03-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "763cf8e0-b00f-4d6e-b6c2-4baa1495adcc",
+                "date": "03-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "11a6a1f1-87ab-4a32-baf4-88b1ff785052",
+                "date": "03-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "GEMCOVAC®-OM",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "f236fb6e-092f-44b8-bd10-4d0811150c31",
+                "date": "03-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "d75b6114-0ca4-40f3-b8a0-64315a2170a0",
+                "date": "04-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "GEMCOVAC®-OM",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "bcf7e8db-1c71-4b10-8f6b-60db3d512c08",
+                "date": "04-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "96fd5195-a3ee-4f40-ae1c-5efbee017461",
+                "date": "04-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "7d012b07-b4c9-4978-9763-5ae175c3cda9",
+                "date": "04-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "c8056e3a-ec70-4acd-a902-3123d4aff744",
+                "date": "05-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "de5f7eea-3945-4805-9ec5-0e96ff9b7f8d",
+                "date": "05-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "GEMCOVAC®-OM",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "55d933c1-6455-4512-a313-58f669d50817",
+                "date": "05-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "2c8bd7ec-10d1-4848-8f30-db235ded153e",
+                "date": "05-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "e82782e4-c1e6-47af-b680-0938b1affaee",
+                "date": "06-01-2024",
+                "available_capacity": 198,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 98,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "da4f11a1-22cd-458c-9981-8f85c010ecae",
+                "date": "06-01-2024",
+                "available_capacity": 99,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "GEMCOVAC®-OM",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "d8293197-99bf-4f71-8c44-4ac64af9be56",
+                "date": "06-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "402dbaaa-0ae2-4f6b-bff9-e21b8ebb557e",
+                "date": "06-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "093449db-5dc7-42f7-95df-4bda8780aaed",
+                "date": "07-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "17f57d0d-e04b-4268-8077-6896a9d0473b",
+                "date": "07-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "64aee657-68d5-474e-abe3-abac5c0aeb84",
+                "date": "07-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "44458b7e-bc94-425b-a4a6-e531199a3026",
+                "date": "07-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "GEMCOVAC®-OM",
+                "slots": [
+                    {
+                        "time": "10:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-04:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "04:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "8b7af01f-2b46-4515-a515-9ac982ce868c",
+                "date": "08-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "a7ad6415-20c0-4caa-96e4-0aa7f045dc57",
+                "date": "08-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "976b0252-1227-4a59-8138-3bd1572f9ffe",
+                "date": "08-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "5b84d197-583e-49ed-b44f-17caab54175e",
+                "date": "08-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "GEMCOVAC®-OM",
+                "slots": [
+                    {
+                        "time": "11:00AM-01:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "01:00PM-03:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "03:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-07:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            }
+        ],
+        "vaccine_fees": [
+            {
+                "vaccine": "COVOVAX",
+                "fee": "386.25"
+            },
+            {
+                "vaccine": "CORBEVAX",
+                "fee": "400"
+            },
+            {
+                "vaccine": "GEMCOVAC®-OM",
+                "fee": "2299"
+            }
+        ]
+    },
+    {
+        "center_id": 564585,
+        "name": "MBMC Bpbj Hospital",
+        "address": "TEMBHA ROAD NEAR MAXUS MALL BHAYANDER WEST",
+        "state_name": "Maharashtra",
+        "district_name": "Thane",
+        "block_name": "Mira Bhayander Municipal Corporation",
+        "pincode": 401101,
+        "lat": 19,
+        "long": 72,
+        "from": "09:30:00",
+        "to": "15:30:00",
+        "fee_type": "Free",
+        "sessions": [
+            {
+                "session_id": "88b96d6f-af9f-4ccc-9f67-09278b01b503",
+                "date": "02-01-2024",
+                "available_capacity": 1,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "iNCOVACC",
+                "slots": [
+                    {
+                        "time": "09:30AM-10:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "10:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-12:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:30PM-03:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "afde4e56-c155-40b3-aa39-b8a90ddbb1e5",
+                "date": "03-01-2024",
+                "available_capacity": 0,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "iNCOVACC",
+                "slots": [
+                    {
+                        "time": "09:30AM-10:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "10:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-12:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:30PM-03:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "60f58770-d302-479a-b041-3cb210706717",
+                "date": "04-01-2024",
+                "available_capacity": 1,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "iNCOVACC",
+                "slots": [
+                    {
+                        "time": "09:30AM-10:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "10:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-12:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:30PM-03:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "923bd10c-aeb7-4e04-ab4c-a3dc8e2eb71b",
+                "date": "05-01-2024",
+                "available_capacity": 1,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "iNCOVACC",
+                "slots": [
+                    {
+                        "time": "09:30AM-10:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "10:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-12:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:30PM-03:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "4bdfb524-8427-4e2d-b66d-a279b5959836",
+                "date": "06-01-2024",
+                "available_capacity": 1,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "iNCOVACC",
+                "slots": [
+                    {
+                        "time": "09:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-12:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "c9e4ecc9-0c16-4022-8a82-00f764f06ee1",
+                "date": "08-01-2024",
+                "available_capacity": 1,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "iNCOVACC",
+                "slots": [
+                    {
+                        "time": "09:30AM-10:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "10:30AM-11:30AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:30AM-12:30PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:30PM-03:30PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            }
+        ]
+    },
+    {
+        "center_id": 831407,
+        "name": "NMMCP Shree Hospital",
+        "address": "2nd Floor Raikar Bhavan Nr. Navaratna Hotel Pedestrian Path Sector 17 Vashi Navi Mumbai Maharashtra",
+        "state_name": "Maharashtra",
+        "district_name": "Thane",
+        "block_name": "Navi Mumbai Municipal Corporation",
+        "pincode": 400703,
+        "lat": 19,
+        "long": 72,
+        "from": "10:00:00",
+        "to": "17:00:00",
+        "fee_type": "Paid",
+        "sessions": [
+            {
+                "session_id": "49b2560c-9335-44c2-af87-8da31828dc12",
+                "date": "02-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "10:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-04:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "04:00PM-05:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "8ad5c2fd-40ac-4c51-8a7b-8665d9af2f71",
+                "date": "03-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "10:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-04:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "04:00PM-05:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "834766bb-379a-450b-8a79-be36ca139f54",
+                "date": "04-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "CORBEVAX",
+                "slots": [
+                    {
+                        "time": "10:00AM-12:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "12:00PM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-04:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "04:00PM-05:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            }
+        ],
+        "vaccine_fees": [
+            {
+                "vaccine": "CORBEVAX",
+                "fee": "400"
+            }
+        ]
+    },
+    {
+        "center_id": 1052671,
+        "name": "TMC P Cure And Care Polyclinic",
+        "address": "ARADIA BLDGSHOP NO.1 And 2KUSUMARGAJ ROADSAMTA NAGARTHANE W",
+        "state_name": "Maharashtra",
+        "district_name": "Thane",
+        "block_name": "Thane Municipal Corporation",
+        "pincode": 400606,
+        "lat": 19,
+        "long": 72,
+        "from": "08:00:00",
+        "to": "20:00:00",
+        "fee_type": "Paid",
+        "sessions": [
+            {
+                "session_id": "c48c07d7-3a34-44bf-ac4c-b49399c90be0",
+                "date": "02-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "cc3c784a-187a-4d7c-af59-d3b4b2cfd1af",
+                "date": "02-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "dc30d0c4-0109-4d78-9ac5-f7ef0efc34a0",
+                "date": "03-01-2024",
+                "available_capacity": 98,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "9d15e0ae-5e7a-45b2-ab1a-0ef4c4827d32",
+                "date": "03-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "d89b0dc6-068a-4c01-bc36-29d15843bb4d",
+                "date": "04-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "e9c8da03-0810-462c-a204-25de38e752cb",
+                "date": "04-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "437e6357-4397-465d-9f6a-5ba5f91649fc",
+                "date": "05-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "1e9d1c32-c7de-4597-a87c-0a89d1f8de90",
+                "date": "05-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "cd52edc1-975e-4f4f-931f-2c9a73a4ccad",
+                "date": "06-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "6874feeb-50c3-4bec-84cc-3c625b7afb47",
+                "date": "06-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "1272f1bd-0d75-4817-ad67-6acfb7a1275d",
+                "date": "07-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-09:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "09:00AM-10:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "10:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "3a2cfc06-cfec-4830-a612-04c9f8a44d9d",
+                "date": "07-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-09:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "09:00AM-10:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "10:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            },
+            {
+                "session_id": "a3fbff11-a5ac-471f-b505-ece717bd1eea",
+                "date": "08-01-2024",
+                "available_capacity": 200,
+                "min_age_limit": 12,
+                "allow_all_age": true,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 100,
+                "available_capacity_dose2": 100
+            },
+            {
+                "session_id": "5a0a9b64-be48-4f65-a290-b759ca5e9659",
+                "date": "08-01-2024",
+                "available_capacity": 100,
+                "min_age_limit": 18,
+                "max_age_limit": 44,
+                "allow_all_age": false,
+                "vaccine": "COVOVAX",
+                "slots": [
+                    {
+                        "time": "08:00AM-11:00AM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "11:00AM-02:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "02:00PM-05:00PM",
+                        "seats": 0
+                    },
+                    {
+                        "time": "05:00PM-08:00PM",
+                        "seats": 0
+                    }
+                ],
+                "available_capacity_dose1": 0,
+                "available_capacity_dose2": 0
+            }
+        ],
+        "vaccine_fees": [
+            {
+                "vaccine": "COVOVAX",
+                "fee": "386.25"
+            }
+        ]
+    }
+]
